@@ -40,7 +40,7 @@ app.get('/api/quote', (req, res) => {
 
         try {
             const data = JSON.parse(jsonData);
-            res.json(data["data"][getRandomInt(0, data["data"].length)]);
+            res.json(data["data"][getRandomInt(0, data["data"].length-1)]);
         } catch (parseErr) {
             res.status(500).json({ error: 'JSON faylni tahlil qilishda xatolik' });
         }
