@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uz.findwork.findwork",
+      "sha256_cert_fingerprints": [
+        "AA:FE:82:6C:6F:67:BE:D1:60:C1:F3:16:FF:D8:1F:2E:A3:37:9C:4A:7E:EE:C7:34:F1:C6:27:00:26:9C:AE:59"
+      ]
+    }
+  }
+]
