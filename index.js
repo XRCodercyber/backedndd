@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json());
 
-
+main();
 
 async function main() {
     await client.connect()
