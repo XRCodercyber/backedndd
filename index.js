@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb')
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid'); // <
 const User = require('./models/user.js')
-
+var cors = require('cors');
 
 
 
